@@ -38,9 +38,9 @@ class App extends Component {
           <div className="card mt-4 text-center">
            <div className="card-header"> <h5>{todo.priority}</h5> </div>
             <div className="card-body">
-            <h6 class="card-title">{todo.title}</h6>                   
+            <h6 className="card-title">{todo.title}</h6>                   
                     
-              <p class="card-text">{todo.description}</p>              
+              <p className="card-text">{todo.description}</p>              
          </div> 
             <div className="card-footer">
               <button
